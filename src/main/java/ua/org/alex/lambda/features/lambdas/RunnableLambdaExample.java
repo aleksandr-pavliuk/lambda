@@ -1,4 +1,4 @@
-package ua.org.alex.lambda.lambdas;
+package ua.org.alex.lambda.features.lambdas;
 
 /**
  * @author Alex
