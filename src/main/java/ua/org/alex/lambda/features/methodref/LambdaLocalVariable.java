@@ -15,7 +15,7 @@ public class LambdaLocalVariable {
         int i = 10;
 
         Consumer<Integer> c1 = (j) -> {
-//			i++;
+            //i++;
             k = 15;
             System.out.println("Print K:" + k);
             System.out.println("Value is :" + (i + j));
