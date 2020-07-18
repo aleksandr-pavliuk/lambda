@@ -10,7 +10,7 @@ import java.util.function.BiConsumer;
  * @author Alex
  * @link http://healthfood.net.ua
  */
-public class BeConsumerPersonExample {
+public class BiConsumerPersonExample {
 
     static void printPersonalDetails() {
 
