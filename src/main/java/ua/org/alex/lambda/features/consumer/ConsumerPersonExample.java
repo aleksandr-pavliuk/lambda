@@ -21,7 +21,7 @@ public class ConsumerPersonExample {
     static List<Person> personList = PersonRepository.getAllPersons();
 
     static void printNameAndHobbies() {
-        personList.forEach(c1.andThen(c2));
+        personList.forEach(c1.andThen(c3));
     }
 
     private static void printWithCondition() {
