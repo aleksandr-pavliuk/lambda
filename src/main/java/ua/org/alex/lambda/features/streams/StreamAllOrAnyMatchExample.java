@@ -13,9 +13,9 @@ import java.util.function.Predicate;
  */
 public class StreamAllOrAnyMatchExample {
 
-    static Predicate<String> p1 = num -> num.length() > 7;
-    static Predicate<Person> p2 = per -> per.getHeight() >= 140;
-    static Predicate<Person> p3 = per -> per.getGender().equals("Male");
+    private static Predicate<String> p1 = num -> num.length() > 7;
+    private static Predicate<Person> p2 = per -> per.getHeight() >= 140;
+    private static Predicate<Person> p3 = per -> per.getGender().equals("Male");
 
     public static void main(String[] args) {
 
