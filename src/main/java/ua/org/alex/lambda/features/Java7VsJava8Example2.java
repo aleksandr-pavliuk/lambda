@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * @author Alex
@@ -29,6 +28,6 @@ public class Java7VsJava8Example2 {
         List<String> uniqNames2 = names.stream()
                 .distinct()
                 .collect(Collectors.toList());
-        System.out.println("Unique List in Java 8 " + uniqNames);
+        System.out.println("Unique List in Java 8 " + uniqNames2);
     }
 }
